@@ -1,0 +1,14 @@
+let num=10;
+let flag=0;
+let i;
+let j;
+for( i=2;i<=num;i++){
+  for( j=2;j<num;j++){
+    if(i%j===0){
+      break;
+    }
+  }
+  if(i==j){
+    console.log(i+" is a prime number")
+  }
+}
